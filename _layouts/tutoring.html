@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<header>
+{% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries active="tutoring" %}
+  <div class="dashed"></div>
+{% endif %}
+</header>
+
+{{ content }}
+
+<h2>Reviews</h2>
+
+I tutor math and science blah blah blah.
+Here are some reviews from my past students:
+{% include reviews.html collection=site.data.home.tutoring_reviews %}
+
+<h2>Tutoring notes</h2>
+{% pdf "/assets/example_notes.pdf" no_link %}
+<p>Algebra:</p>
+{% include card_list.html collection=site.data.home.tutoring_entries %}
+
+<p>Geometry:</p>
+{% include card_list.html collection=site.data.home.geometry_entries %}
+
+<h2>Get in touch</h2>
+Are you interested in tutoring? The best way to reach me is at <a href="mailto:penano@uchicago.edu" target="_blank">penano@uchicago.edu</a>.
+
+
+{% if site.theme_config.show_footer == true %}
+  <footer>
+    <div class="dashed"></div>
+    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+  </footer>
+{% endif %}

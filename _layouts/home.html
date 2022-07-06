@@ -4,14 +4,18 @@ layout: default
 
 <header>
 {% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries active="home" %}
   <div class="dashed"></div>
 {% endif %}
 
   <h1>{{ site.title }}</h1>
-  {% if site.theme_config.show_description == true %}
-    <p>{{ site.description }}</p>
-  {% endif %}
+  <div class="intro">
+    <img class="profile" src="images/profile.png" alt="Profile picture">
+    <p class="text">
+      Hi, I'm Sagada Peñano! I'm a medical physics student at UChicago, a K-12 tutor, an activist, and a musician.
+      Feel free to navigate my website and download my <a href="assets/penano_resume.pdf">CV here</a>.
+    </p>
+  </div>
 </header>
 
 {{ content }}
@@ -37,9 +41,7 @@ layout: default
 {% endif %}
 
 
-{% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
-{% endif %}
+<footer>
+  <div class="dashed"></div>
+  {% include horizontal_list.html collection=site.data.home.footer_entries %}
+</footer>

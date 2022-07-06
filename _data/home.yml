@@ -1,101 +1,109 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: About Me
+    url: home
 
-  - title: blog
-    url: blog
+  - title: Projects
+    url: projects
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: Writing
+    url: writing
 
-project_entries:
-  - title: Project 1
+  - title: Tutoring
+    url: tutoring
+
+  - title: Community Action Resources
+    url: community
+
+tutoring_entries:
+  - title: Notes 1
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    desc: Geometry
 
-  - title: Project 2
+  - title: Notes 2
     url: overview-post
-    desc: Projects are shown in card layout
+    desc: Geometry
 
-  - title: Project 3
+  - title: Notes 3
     url: overview-post
-    desc: You can control visibility from _config.yml file
+    desc: Geometry
 
-  - title: Project 4
+  - title: Notes 4
     url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
+    desc: Geometry
+
+  - title: Notes 5
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 6
+    url: overview-post
+    desc: Geometry
     highlight: WIP
 
-  - title: Project 5
+geometry_entries:
+  - title: Notes 1
     url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+    desc: Geometry
 
-  - title: Project 6
+  - title: Notes 2
     url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+    desc: Geometry
 
-old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+  - title: Notes 3
+    url: overview-post
+    desc: Geometry
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+tutoring_reviews:
+  - person: Ellie
+    text: Sagada is the best
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  - person: Juliana
+    text: Sagada is the bestest
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - person: Sam
+    text: Sagada changed my life and I do not think that there is anyone better because she can tutor very well and this is how she tutors she first says hi then i say hi then she pulls out her ipad that has green tea stains then...
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
   - title: twitter
-    url: https://twitter.com/abhinav
+    url: https://twitter.com/sipenano
 
   - title: github
-    url: https://github.com/abhinavs
+    url: https://github.com/sagadap
 
-  - title: feed
-    url: feed.xml
+  - title: linkedin
+    url: https://www.linkedin.com/in/sagada-penano-449963195/
 
-misc_entries:
-  - title: this is an example vertical list
-    url: false
+  - title: CV
+    url: assets/penano_resume.pdf
 
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
+comm_entries:
+  - title: Presentation on Indigenous Communities in the Philippines
+    url: assets/indigcom.pdf
 
-  - title: and you can add data in _data/home.yml
-    url: false
+  - title: Infographic on Anti-Terrorism Law
+    url: assets/ph_awareness.pdf
 
-  - title: Blog posts
-    post_list: true
-    url: false
-
-  - title: moonwalk on the Internet
-    url: false
-    entries:
-      - title: on Github
-        url: https://github.com/abhinavs/moonwalk
-
-      - title: originally built for abhinav's homepage
-        url: https://www.abhinav.co
-
-      - title: this list is scalable and can be nested
-        url: false
-        entries:
-          - title: this is nested inside a nested list
-            url: false
-
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
+  - title: Infographic on Randy Echanis
+    url: assets/randyechanis.pdf
 
 
+writing_entries:
+  - title: The Generational Difference Between Filipino Americans
+    url: assets/soc1final.pdf
+
+  - title: The Influence of Past Revolutionaries on Filipino Activists Today (Draft)
+    url: assets/pwr2rba_draft.pdf
+
+  - title: The Soundtrack of My Life (Commonapp Essay)
+    url: assets/soundtrack.pdf
+
+
+project_entries:
+  - title: Using Maching Learning to Predict Dementia
+    url: assets/dementia_poster.pdf
+
+  - title: Computing the Distance to Variable Star SZ-LYN
+    url: assets/phys100pres.pdf
+
+  - title: The Generational Difference in Soul Sampling
+    url: https://sites.google.com/stanford.edu/soulsamples/home

@@ -76,12 +76,12 @@ html {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-      --headings: #74c0fc;
-      --links: #91A7FF;
+      --headings: #6495ED;
+      --links: #516BEB;
       --highlight: #41C7C7;
-      --bg: #1f242A;
-      --bg-secondary: #323945;
-      --text: #adb5bd;
+      --bg: #FFF;
+      --bg-secondary: #F2D1D1;
+      --text: black;
       --code-text: #91A7FF;
       --share-text: #C4C4C4;
   };
@@ -196,4 +196,22 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
+}
+
+.intro {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  .profile {
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid var(--bg-secondary);
+    margin-right: 20px;
+  }
+}
+
+.review {
+  display: flex !important;
+  justify-content: space-between;
+  flex-direction: column;
 }
