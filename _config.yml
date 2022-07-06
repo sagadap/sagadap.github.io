@@ -1,9 +1,10 @@
 title: Sagada Peñano
 author: Sagada Peñano
-url: https://www.abhinavsaxena.com/moonwalk # root address of the site
+url: # root address of the site
 description: > # description of the site (multiple lines allowed)
   Hi, I'm Sagada Peñano! I'm a medical physics student at UChicago, a K-12 tutor, an activist, and a musician.
   Feel free to navigate my website and download my CV here.
+baseurl: ''
 
 permalink: /:slug
 
