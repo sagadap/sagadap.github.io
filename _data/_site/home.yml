@@ -1,0 +1,100 @@
+navbar_entries:
+  - title: About Me
+    url: home
+
+  - title: Projects
+    url: projects
+
+  - title: Writing
+    url: writing
+
+  - title: Tutoring
+    url: tutoring
+
+  - title: Community Action Resources
+    url: community
+
+tutoring_entries:
+  - title: Notes 1
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 2
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 3
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 4
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 5
+    url: overview-post
+    desc: Geometry
+
+  - title: Notes 6
+    url: overview-post
+    desc: Geometry
+    highlight: WIP
+
+tutoring_reviews:
+  - person: Ellie
+    text: Sagada is the best
+
+  - person: Juliana
+    text: Sagada is the bestest
+
+  - person: Sam
+    text: Sagada changed my life and I do not think that there is anyone better because she can tutor very well and this is how she tutors she first says hi then i say hi then she pulls out her ipad that has green tea stains then...
+
+footer_entries:
+  - title: twitter
+    url: https://twitter.com/sipenano
+
+  - title: github
+    url: https://github.com/sagadap
+
+  - title: linkedin
+    url: https://www.linkedin.com/in/sagada-penano-449963195/
+
+  - title: CV
+    url: assets/penano_resume.pdf
+
+comm_entries:
+  - title: this is an example vertical list
+    url: google.com
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    url: false
+
+writing_entries:
+  - title: this is an example vertical list
+    url: google.com
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    url: false
+
+project_entries:
+  - title: Using Maching Learning to Predict Dementia
+    url: assets/dementia_poster.pdf
+
+  - title: Computing the Distance to Variable Star SZ-LYN
+    url: assets/phys100pres.pdf
+
+  - title: The Generational Difference in Soul Sampling
+    url: https://sites.google.com/stanford.edu/soulsamples/home
