@@ -1,4 +1,0 @@
----
-layout: tutoring
-title: Tutoring
----
